@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E658A436293197D800BA33C3 /* ViewControllerAgregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658A435293197D800BA33C3 /* ViewControllerAgregar.swift */; };
 		E69ACD2A292C0689009367A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69ACD29292C0689009367A4 /* AppDelegate.swift */; };
 		E69ACD2C292C0689009367A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69ACD2B292C0689009367A4 /* SceneDelegate.swift */; };
 		E69ACD2E292C0689009367A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69ACD2D292C0689009367A4 /* ViewController.swift */; };
 		E69ACD31292C0689009367A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69ACD2F292C0689009367A4 /* Main.storyboard */; };
 		E69ACD33292C06AC009367A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69ACD32292C06AC009367A4 /* Assets.xcassets */; };
 		E69ACD36292C06AC009367A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69ACD34292C06AC009367A4 /* LaunchScreen.storyboard */; };
+		E69ACD3E292C09DA009367A4 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69ACD3D292C09DA009367A4 /* Users.swift */; };
+		E69ACD40292C1808009367A4 /* ViewControllerBuscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69ACD3F292C1808009367A4 /* ViewControllerBuscar.swift */; };
+		E69ACD42292C1917009367A4 /* Peliculas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69ACD41292C1917009367A4 /* Peliculas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E658A435293197D800BA33C3 /* ViewControllerAgregar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregar.swift; sourceTree = "<group>"; };
 		E69ACD26292C0689009367A4 /* JSONRESTful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONRESTful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69ACD29292C0689009367A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69ACD2B292C0689009367A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		E69ACD32292C06AC009367A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69ACD35292C06AC009367A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E69ACD37292C06AC009367A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69ACD3D292C09DA009367A4 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E69ACD3F292C1808009367A4 /* ViewControllerBuscar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuscar.swift; sourceTree = "<group>"; };
+		E69ACD41292C1917009367A4 /* Peliculas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peliculas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				E69ACD32292C06AC009367A4 /* Assets.xcassets */,
 				E69ACD34292C06AC009367A4 /* LaunchScreen.storyboard */,
 				E69ACD37292C06AC009367A4 /* Info.plist */,
+				E69ACD3D292C09DA009367A4 /* Users.swift */,
+				E69ACD3F292C1808009367A4 /* ViewControllerBuscar.swift */,
+				E69ACD41292C1917009367A4 /* Peliculas.swift */,
+				E658A435293197D800BA33C3 /* ViewControllerAgregar.swift */,
 			);
 			path = JSONRESTful;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69ACD42292C1917009367A4 /* Peliculas.swift in Sources */,
+				E69ACD3E292C09DA009367A4 /* Users.swift in Sources */,
 				E69ACD2E292C0689009367A4 /* ViewController.swift in Sources */,
 				E69ACD2A292C0689009367A4 /* AppDelegate.swift in Sources */,
 				E69ACD2C292C0689009367A4 /* SceneDelegate.swift in Sources */,
+				E658A436293197D800BA33C3 /* ViewControllerAgregar.swift in Sources */,
+				E69ACD40292C1808009367A4 /* ViewControllerBuscar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
